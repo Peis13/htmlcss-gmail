@@ -1,0 +1,74 @@
+/* Regole Layout */
+body {
+  margin: 0;
+  background-image: url(../img/sfondo.jpg);
+}
+.container {
+  width: 50%;
+  margin: auto;
+  color: white;
+}
+.header hr{
+  margin-top: 0;
+}
+/* Fine Regole Layout */
+
+/* Regole Top-Header */
+.header .top-header img {
+  width: 100px;
+  height: 100px;
+  vertical-align: middle;
+}
+.header .top-header span {
+  font-size: 25px;
+}
+/* Fine Regole Top-Header */
+
+/* Regole Bottom-Header */
+.header .bottom-header p {
+  font-size: 25px;
+  line-height: 50px;
+  margin: 10px 0;
+}
+.header .bottom-header p .unread {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background: orange;
+  border-radius: 50%;
+  text-align: center;
+  /* padding: 10px; */
+}
+/* Regole Bottom-Header */
+
+/* Regole Email */
+.main .email {
+  padding: 3px;
+  background: lightgray;
+  border: 1px solid black;
+  color: black;
+}
+.main .email .subject {
+  font-weight: bold;
+}
+.main .email .mail-text {
+  color: gray;
+}
+.main .read {
+  background: white;
+}
+/* Fine Regole Email */
+
+/* Footer */
+.footer {
+  text-align: center;
+}
+.footer .copyright {
+  font-size: 25px;
+  font-weight: bold;
+}
+.footer .credit {
+  font-size: 13px;
+  font-style: italic;
+}
+/* Fine Footer */
